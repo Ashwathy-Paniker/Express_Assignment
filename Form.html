@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" style=
+          "padding: 30px;
+          background: rgb(200, 198, 198);
+          max-width: 900px;
+          border-radius: 20px;
+          margin: 100px auto;
+          height: auto;"
+          >
+          <form method="post" action="/submit-data">
+                <h1 class="text-center">Register here!</h1>
+                <div class="form-group">
+                    <h5><label>Id:</label></h5>
+                    <input type="text" class="form-control" name="id" id="id" placeholder="Enter Id" />
+                </div>
+                <div class="form-group">
+                    <h5><label>Name:</label></h5>
+                    <input type="text" class="form-control" name="fname" id="fname" placeholder="Enter name" />
+                </div>
+                <div class="form-group">
+                    <h5><label>Age:</label></h5>
+                    <input type="number" class="form-control" id="age" name="age" placeholder="Enter Age" />
+                </div>
+                <div class="form-group">
+                    <h5><label>City:</label></h5>
+                    <input type="text" class="form-control" id="city" name="city" placeholder="Enter City" />
+                </div>
+                <div class="form-group">
+                   <h5><label>Salary:</label></h5> 
+                    <input type="number" class="form-control" id="sal" name="sal" placeholder="Enter Salary" />
+                </div>
+                <div class="container text-center">
+                <button type="submit" class="btn btn-dark ">Submit</button>
+              </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
